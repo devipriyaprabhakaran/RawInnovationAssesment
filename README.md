@@ -68,8 +68,8 @@ Feature: feature to test login functionality
      3) Write a note in the dashboard page followed by the logout
      4) Login again and verify the saved note is present or not
      
-  ### To build the communication between Feauture file and Stepdefinition file, Test runner class is created.
-      ## Options to add in a Testrunner class
+## To build the communication between Feauture file and Stepdefinition file, Test runner class is created.
+      Options to add in a Testrunner class
            1) To run the cucumber @Runwith(cucumber.class) is usesd
            2) Then to build the communication @cucumberOptions(features="src/test/resources/Features",glue={"Stepdefinition"} is used.
            3) To display the output in color format monochrome=true is used
